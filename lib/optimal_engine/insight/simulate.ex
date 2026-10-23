@@ -256,7 +256,7 @@ defmodule OptimalEngine.Insight.Simulate do
         entity = extract_entity_from_scenario(scenario)
         %{type: :entity_removal, entity: entity, node: nil, raw_scenario: scenario}
 
-      # Node cancellation patterns: "cancel AA", "shut down operation-delivery", "drop project-platform-launch"
+      # Node cancellation patterns: "cancel operation-revenue", "shut down operation-delivery", "drop project-platform-launch"
       Regex.match?(
         ~r/\bcancel\b|\bshut down\b|\bdrop\b|\bend\b|\bkill\b|\bclose\b|\bdissolve\b/,
         downcased

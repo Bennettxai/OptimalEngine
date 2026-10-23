@@ -45,8 +45,6 @@ defmodule OptimalEngine.Retrieval.IntentAnalyzer do
     "os architect" => "entity-company",
     "youtube" => "entity-company",
     "ahmed" => "entity-company",
-    "agency accelerants" => "operation-delivery",
-    "aa" => "operation-delivery",
     "bennett" => "operation-delivery",
     "cliniciq" => "operation-delivery",
     "community" => "team",
